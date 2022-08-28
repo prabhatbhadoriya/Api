@@ -22,6 +22,14 @@ public class UserDetails {
 	UserResources data = new UserResources();
 	
 	@GET
+	@Path("test")
+	@Produces(MediaType.TEXT_PLAIN)
+    	public String getIt() {
+        return "Got it!";
+    	}
+	
+	
+	@GET
 	@Path("getuser")
 	@Produces(MediaType.APPLICATION_JSON)
 	public  ArrayList getUserData() throws NamingException {
