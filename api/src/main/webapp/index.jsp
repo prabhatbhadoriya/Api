@@ -32,11 +32,11 @@
     
     <h2>Jersey RESTful Web Application!</h2>
         <div class="container my-3 justify-content-md-center">
-        <button type="button" class="btn my-2 btn-primary "><a href="/api/web/myresource">Checkout!</a></button>
+        <button type="button" class="btn my-2 text-white btn-primary "><a class="text-white" href="/api/web/myresource">Checkout!</a></button>
             
        <!-- <h3><a href="/api/web/myresource">Help</a></h3> -->
         <br>
-        <button type="button" class="btn my-2 btn-primary"><a href="/api/web/users/getuser">Users</a></button>
+        <button type="button" class="btn my-2 text-white btn-primary"><a class="text-white" href="/api/web/users/getuser">Users</a></button>
         
         </div>
     <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
