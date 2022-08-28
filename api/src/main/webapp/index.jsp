@@ -15,12 +15,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/api">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      
+       
        
       </ul>
       <form class="d-flex" role="search">
@@ -30,13 +27,17 @@
     </div>
   </div>
 </nav>
-    <div class="container justify-content-md-center">
+    <div class="container my-3 justify-content-md-center">
     
     <h2>Jersey RESTful Web Application!</h2>
-    <button type="button" href="/api/web/myresource" class="btn btn-primary">Checkout!</button>
-    <h3><a href="/api/web/myresource">For Testing</h3>
+        <div class="container my-3 justify-content-md-center">
+        <button type="button" class="btn btn-primary"><a href="/api/web/myresource">Checkout!</a></button>
+            
+       <!-- <h3><a href="/api/web/myresource">Help</a></h3> -->
         <br>
-    <a href="/api/web/users/getuser">Click here to get the data</a>
+        <button type="button" class="btn btn-primary"><a href="/api/web/users/getuser">Users</a></button>
+        
+        </div>
     <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
     for more information on Jersey!
     </div>
