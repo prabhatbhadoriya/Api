@@ -6,7 +6,7 @@
     </head>
 <body>
     
-    <nav class="navbar navbar-dark bg-primary">
+   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,7 @@
           <a class="nav-link active" aria-current="page" href="/api">Home</a>
         </li>
        
+        
        
       </ul>
       <form class="d-flex" role="search">
@@ -27,15 +28,15 @@
     </div>
   </div>
 </nav>
-    <div class="container my-3 justify-content-md-center">
+    <div class="container my-3 text-white justify-content-md-center">
     
     <h2>Jersey RESTful Web Application!</h2>
         <div class="container my-3 justify-content-md-center">
-        <button type="button" class="btn btn-primary"><a href="/api/web/myresource">Checkout!</a></button>
+        <button type="button" class="btn my-2 btn-primary "><a href="/api/web/myresource">Checkout!</a></button>
             
        <!-- <h3><a href="/api/web/myresource">Help</a></h3> -->
         <br>
-        <button type="button" class="btn btn-primary"><a href="/api/web/users/getuser">Users</a></button>
+        <button type="button" class="btn my-2 btn-primary"><a href="/api/web/users/getuser">Users</a></button>
         
         </div>
     <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
